@@ -80,8 +80,7 @@ p {
   justify-content: center;
 }
 
-.navigation-links a,
-.launch-button {
+.navigation-links a {
   margin         : 20px;
   border-radius  : 4px;
   padding        : 20px 15px;
@@ -90,8 +89,15 @@ p {
 }
 
 .launch-button {
+  margin-top : 5px;
   margin-left: -5px;
-  margin-top : 80px;
+  /* margin       : 20px; */
+  border-radius: 4px;
+  padding      : 20px 15px;
+  
+  text-decoration: none;
+  text-transform : capitalize;
+  /* margin-top : 80px; */
 }
 
 .contact-link,
